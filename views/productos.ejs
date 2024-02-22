@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos - Tu Tienda de Ropa</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <%- include('partials/header') %>
+
+  <h1>Productos</h1>
+  <p>¡Descubre nuestros productos más recientes y populares!</p>
+  <ul>
+    <li>
+      <img src="/img/producto1.jpg" alt="Producto 1">
+      <p>Descripción del Producto 1</p>
+      <p>Precio: $X</p>
+      <button>Agregar al carrito</button>
+    </li>
+    <li>
+      <img src="/img/producto2.jpg" alt="Producto 2">
+      <p>Descripción del Producto 2</p>
+      <p>Precio: $Y</p>
+      <button>Agregar al carrito</button>
+    </li>
+    <!-- Agregar más productos aquí -->
+  </ul>
+  
+  <%- include('partials/footer') %>
+</body>
+</html>
